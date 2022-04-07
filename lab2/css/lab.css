@@ -1,3 +1,8 @@
+body {
+  background-color: green;
+  font-family: sans-serif, cursive, monospace;
+}
+
 h1 {
   color: red;
   font-size: 200%;
@@ -14,7 +19,7 @@ h3 {
 }
 
 h4 {
-  color: green;
+  color: lime;
   font-size: 125%;
 }
 
@@ -24,9 +29,10 @@ h5 {
 }
 
 p {
+  color: orange;
   text-indent: 100px;
 }
 
 #content {
-  border: dashed 5px #00ffff
+  border: dashed 5px #00ffff;
 }
