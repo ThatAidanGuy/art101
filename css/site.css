@@ -1,7 +1,12 @@
 #intro {
-  border: solid 5px black;
+  border: solid 3px black;
+  background-color: white;
 }
 
 #my-portrait {
   width: 500px;
+}
+
+body {
+  background-color: teal;
 }
