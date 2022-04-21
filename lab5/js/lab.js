@@ -18,9 +18,9 @@ age = 2022 - year;
 br = "<br>";
 
 //output
-document.writeIn("Make: " + make + br);
-document.writeIn("Model: " + model + br);
-document.writeIn("Color: " + color + br);
-document.writeIn("Year: " + year + br);
-document.writeIn("Own It: " + ownIt + br);
-document.writeIn("Age: " + age + " years<br>");
+document.write("Make: " + make + br);
+document.write("Model: " + model + br);
+document.write("Color: " + color + br);
+document.write("Year: " + year + br);
+document.write("Own It: " + ownIt + br);
+document.write("Age: " + age + " years<br>");
