@@ -17,7 +17,7 @@ var myMainRide = {
   age: 2022 - myMainRide.year
 };
 
-//Output to Web page
+//Output to Web Page
 
 document.writeIn("How I actually get around: ", myTransport, "</br>");
 document.writeIn("Family car I used for Lab 5 (so not quite <i> my main ride </i>): <pre>",
