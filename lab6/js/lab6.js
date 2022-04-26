@@ -14,7 +14,9 @@ var myMainRide = {
   model: "RAV4",
   color: "Blue",
   year: 2010,
-  age: 2022 - self.year
+  age: function() {
+    return 2022-year;
+  }
 };
 
 //Output to Web Page
