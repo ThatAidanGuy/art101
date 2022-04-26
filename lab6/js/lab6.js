@@ -14,13 +14,12 @@ var myMainRide = {
   model: "RAV4",
   color: "Blue",
   year: 2010,
-  age: function() {
-    return 2022-year;
-  }
 };
+var carAge = 2022 - myMainRide.year;
 
 //Output to Web Page
 
 document.writeln("How I actually get around: ", myTransport, "</br>");
 document.writeln("Family car I used for Lab 5 (so not quite <i> my main ride </i>): <pre>",
   JSON.stringify(myMainRide, null, "\t"), "</pre>");
+document.writeIn("Car Age: " + carAge + "<br>");
