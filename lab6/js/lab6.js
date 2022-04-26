@@ -2,7 +2,7 @@
 // In this lab we make arrays and objects to familiarize ourselves
 // with those JavaScript constructs.
 // Link: https://thataidanguy.github.io/art101/lab6/index.html
-// File: lab.js (This file contains JavaScript to run in
+// File: lab6.js (This file contains JavaScript to run in
 // Lab 6's index.html.)
 // Written by Aidan Andreasen
 // on 4.25.2022
