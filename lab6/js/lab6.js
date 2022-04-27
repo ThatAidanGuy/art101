@@ -8,18 +8,22 @@
 // on 4.25.2022
 
 //Define variables
-var myTransport = ["walking", "bus"];
-var myMainRide = {
+myTransport = ["walking", "bus"];
+myMainRide = {
   make: "Toyota",
   model: "RAV4",
   color: "Blue",
   year: 2010
 };
-var carAge = 2022 - myMainRide.year;
+carAge = 2022 - myMainRide.year;
 
 //Output to Web Page
 
-document.writeln("How I actually get around: ", myTransport, "</br>");
+/*document.writeln("How I actually get around: ", myTransport, "<br>");
 document.writeln("Family car I used for Lab 5 (so not quite <i> my main ride </i>): <pre>",
-  JSON.stringify(myMainRide, null, "\t"), "</pre>");
-document.writeIn("Car Age: " + carAge + "<br>");
+  JSON.stringify(myMainRide, null, "\t"), "<pre>");
+document.writeln("Car Age: " + carAge + "<br>");*/
+
+document.getElementByID("output1").innerHTML = "How I actually get around: " + myTransport + "<br>";
+document.getElementByID("output2").innerHTML = "Family car I used for Lab 5 (so not quite <i> my main ride </i>): <pre>" + JSON.stringify(myMainRide, null, "\t") + "<pre>";
+document.getElementByID("output3").innerHTML = "Car Age: " + carAge + "<br>";
