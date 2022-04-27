@@ -24,6 +24,6 @@ document.writeln("Family car I used for Lab 5 (so not quite <i> my main ride </i
   JSON.stringify(myMainRide, null, "\t"), "<pre>");
 document.writeln("Car Age: " + carAge + "<br>");*/
 
-document.getElementByID("output1").innerHTML = "How I actually get around: " + myTransport + "<br>";
-document.getElementByID("output2").innerHTML = "Family car I used for Lab 5 (so not quite <i> my main ride </i>): <pre>" + JSON.stringify(myMainRide, null, "\t") + "<pre>";
-document.getElementByID("output3").innerHTML = "Car Age: " + carAge + "<br>";
+document.getElementById("output1").innerHTML = "How I actually get around: " + myTransport + "<br>";
+document.getElementById("output2").innerHTML = "Family car I used for Lab 5 (so not quite <i> my main ride </i>): <pre>" + JSON.stringify(myMainRide, null, "\t") + "<pre>";
+document.getElementById("output3").innerHTML = "Car Age: " + carAge + "<br>";
