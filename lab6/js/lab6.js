@@ -13,7 +13,7 @@ var myMainRide = {
   make: "Toyota",
   model: "RAV4",
   color: "Blue",
-  year: 2010,
+  year: 2010
 };
 var carAge = 2022 - myMainRide.year;
 
