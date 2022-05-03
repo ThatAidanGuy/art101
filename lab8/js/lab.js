@@ -25,4 +25,8 @@ var nEven = nums.map(function isEven(input) {
 
 console.log("Nums: " + nums);
 console.log("Sums(nums): " + sums(nums));
-console.log("nums.map(isEven): " + nEven);
+console.log("nEven: " + nEven);
+
+document.getElementById("output1").innerHTML = "Nums: " + nums
+document.getElementById("output2").innerHTML = "Sums(nums): " + sums(nums)
+document.getElementById("output3").innerHTML = "nEven: " + nEven
