@@ -1,0 +1,29 @@
+#output0 {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+}
+
+#output1 {
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+}
+
+#output2 {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+
+#output3 {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+#super {
+  position: relative;
+  height: 100px;
+  border: 3px solid magenta;
+}

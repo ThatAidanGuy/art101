@@ -1,6 +1,5 @@
 // Lab 8 for ART101
-// In this lab we practice using .map() to apply a Function
-// to every element in an array.
+// In this lab we practice using anonymous functions and call backs.
 // Link: https://thataidanguy.github.io/art101/lab8/index.html
 // File: lab.js (This file contains JavaScript to run in
 // Lab 8's index.html.)
@@ -23,10 +22,13 @@ var nEven = nums.map(function isEven(input) {
   return (input % 2 == 0);
 })
 
+//Printed to console
 console.log("Nums: " + nums);
 console.log("Sums(nums): " + sums(nums));
 console.log("nEven: " + nEven);
 
-document.getElementById("output1").innerHTML = "Nums: " + nums
-document.getElementById("output2").innerHTML = "Sums(nums): " + sums(nums)
-document.getElementById("output3").innerHTML = "nEven: " + nEven
+//Printed to HTML
+document.getElementById("output0").innerHTML = "<h2> JavaScript Preview! </h2>";
+document.getElementById("output1").innerHTML = "Nums: " + nums;
+document.getElementById("output2").innerHTML = "Sums(nums): " + sums(nums);
+document.getElementById("output3").innerHTML = "nEven: " + nEven;
